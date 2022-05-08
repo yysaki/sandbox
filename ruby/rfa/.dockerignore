@@ -1,9 +1,0 @@
-.env
-.rubocop.yml
-.ruby-version
-.serverless/
-.vim-lsp-settings
-node_modules/
-package-lock.json
-package.json
-tmp
