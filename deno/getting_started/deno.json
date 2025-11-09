@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "lint": "deno run -A npm:@biomejs/biome format --write *.ts"
+    "lint": "deno lint --fix && deno fmt"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
